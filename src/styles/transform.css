@@ -1,0 +1,20 @@
+#transform-world {
+  display: flex;
+  align-items: center;
+  height: 36rem;
+  background-image: url('../assets/images/woman-code.webp');
+  background-size: cover;
+  background-position: center;
+  text-transform: lowercase;
+  border-top: .1rem solid var(--color-azul);
+  border-bottom: .1rem solid var(--color-azul);
+}
+
+#transform-world p {
+  color: var(--color-branco);
+  font-size: 4rem;
+  font-weight: 900;
+  text-shadow: .3rem .2rem 0 var(--color-azul);
+  max-width: 24.5rem;
+  margin-left: 13.75vw;
+}

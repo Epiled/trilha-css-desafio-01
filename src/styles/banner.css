@@ -1,0 +1,70 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60.5rem;
+  background-image:
+    var(--color-gradiente),
+    url('../assets/images/banner.webp');
+  padding: 7.5rem 2rem;
+  border-bottom: .1rem solid var(--color-azul);
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  text-align: center;
+  max-width: 52rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.20);
+  padding: 2rem;
+  width: 26.8rem;
+  height: 26.8rem;
+  margin: auto;
+}
+
+.banner h1 {
+  color: transparent;
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-image: var(--color-gradiente-azul-1);
+  background-clip: text;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner p {
+  color: var(--color-branco);
+  font-size: 1.6rem;
+
+  @media screen and (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.banner button {
+  color: var(--color-azul-2);
+  font-size: 1.6rem;
+  font-weight: 900;
+  padding: 2rem 4rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: .2rem solid;
+  border-image: var(--color-gradiente-azul-2);
+  border-image-slice: 1;
+  align-self: center;
+
+  @media screen and (min-width: 768px) {
+    padding: 2rem 5rem;
+  }
+}

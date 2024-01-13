@@ -1,0 +1,58 @@
+#course-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  text-align: center;
+  color: var(--color-branco);
+  padding: 10rem 2rem;
+  max-width: 80rem;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    padding: 10rem 0;
+  }
+}
+
+#course-content h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--color-azul);
+  text-transform: uppercase;
+  letter-spacing: .6rem;
+}
+
+#course-content p {
+  color: var(--color-branco);
+  font-size: 1.4rem;
+
+  @media screen and (min-width: 768px) {
+    font-size: 1.6rem;
+  }
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.module {
+  border-radius: 5.7rem;
+  border: .1rem solid var(--color-azul);
+  background: #252525;
+  box-shadow: -.2rem .6rem .4rem 0 rgba(0, 0, 0, 0.40) inset;
+  padding: 1.6rem;
+  font-size: 1.4rem;
+  width: 100%;
+  max-width: 53.5rem;
+
+  @media screen and (min-width: 768px) {
+    font-size: 1.6rem;
+  }
+}
+
+.module span {
+  color: var( --color-azul);
+  font-size: inherit;
+}
